@@ -13,3 +13,6 @@ Automatically mounts the Android system partitions. After mapping the super part
   - If not, unmount and try next.
 4. For the super partition, if it exists, set up loop device and dynamic partitions.
 5. Call `mount_partition` for vendor, vendor_dlkm, and odm.
+
+## License
+[GNU License](https://github.com/MelvinSGjr/android-mount/blob/main/LICENSE)
